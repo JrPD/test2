@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace customer_relationship
+namespace DefaultInterfaceMembers
 {
     public interface IOrder
     {

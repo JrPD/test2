@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Linq;
 
-namespace customer_relationship
+namespace DefaultInterfaceMembers
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Green;
+
             SampleCustomer c = new SampleCustomer("customer one", new DateTime(2010, 5, 31))
             {
                 Reminders =
@@ -25,6 +27,15 @@ namespace customer_relationship
             // Check the discount:
             ICustomer.SetLoyaltyThresholds(new TimeSpan(30, 0, 0, 0), 1, 0.25m);
             Console.WriteLine($"Current discount: {c.ComputeLoyaltyDiscount()}");
+
+            Console.ForegroundColor = ConsoleColor.White;
+
+            //var light = new Light();
+            //IWave wave = light;
+            //IParticle particle = light;
+
+            //wave.Interact();
+            //particle.Interact();
         }
     }
 }
