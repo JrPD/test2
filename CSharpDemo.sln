@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_NullableReferenceTypes", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_IndexesAndRanges", "IndexesAndRanges\2_IndexesAndRanges.csproj", "{CE09447E-80FA-426A-ABFC-68FBB75EE63E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_DefaultInterfaceMembers", "DefaultInterfaceMembers\3_DefaultInterfaceMembers.csproj", "{3735DE66-4483-4BC6-B35D-7420B0690D69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
