@@ -7,7 +7,7 @@ namespace defaultInterfaceMembers
     {
         static void Main(string[] args)
         {
-            // <SnippetTestDefaultImplementation>
+            Console.ForegroundColor = ConsoleColor.Green;
             SampleCustomer c = new SampleCustomer("customer one", new DateTime(2010, 5, 31))
             {
                 Reminders =
@@ -26,6 +26,8 @@ namespace defaultInterfaceMembers
             // Check the discount:
             ICustomer theCustomer = c;
             Console.WriteLine($"Current discount: {theCustomer.ComputeLoyaltyDiscount()}");
+
+            Console.ForegroundColor = ConsoleColor.White;
         }
     }
 }
